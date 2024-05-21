@@ -1,10 +1,11 @@
 import { useNavigate } from "react-router-dom";
+import Container from "../components/common/Components/Container";
 
 const ErrorPage = () => {
   const navigate = useNavigate();
   return (
-    <section className="container mx-auto px-4">
-      <div className="w-screen h-screen flex flex-col items-center justify-center p-10">
+    <section>
+      <Container className="h-screen flex flex-col items-center justify-center py-10">
         <img
           className="size-full object-contain"
           src="https://i.postimg.cc/T1Qg4Rqd/404.jpg"
@@ -16,7 +17,7 @@ const ErrorPage = () => {
         >
           Back
         </button>
-      </div>
+      </Container>
     </section>
   );
 };

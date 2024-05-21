@@ -1,10 +1,10 @@
 import { Outlet } from "react-router-dom";
-import Nav from "../components/common/Nav/Nav";
 import Footer from "../components/common/Footer/Footer";
+import Nav from "../components/common/Header/Nav";
 
 const MainLayout = () => {
   return (
-    <main className="text-pretty">
+    <main>
       <Nav />
       <Outlet />
       <Footer />

@@ -1,12 +1,10 @@
-import { Helmet } from "react-helmet-async";
+import PageTitle from "../components/common/Components/PageTitle";
 
 const HomePage = () => {
   return (
     <>
-      <Helmet>
-        <title>Home</title>
-      </Helmet>
-      <section>{/* <div className="container mx-auto px-4"></div> */}</section>
+      <PageTitle title="Home" />
+      <section></section>
     </>
   );
 };
