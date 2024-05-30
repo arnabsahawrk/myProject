@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import Container from "../components/common/Components/Container";
+import Container from "../components/common/Others/Container";
 
 const ErrorPage = () => {
   const navigate = useNavigate();
