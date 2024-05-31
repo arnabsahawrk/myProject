@@ -1,4 +1,4 @@
-import PageTitle from "../components/common/Others/PageTitle";
+import PageTitle from "../../components/common/Others/PageTitle";
 
 const HomePage = () => {
   return (
